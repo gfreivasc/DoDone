@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/day_picker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/task_list_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="30"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="48sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/task_list_completion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="outubro de 2017"
+        app:layout_constraintTop_toTopOf="@+id/task_list_day"
+        app:layout_constraintLeft_toRightOf="@+id/task_list_day"
+        android:layout_marginLeft="8dp"
+        fontPath="RobotoCondensed-Regular.ttf"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/task_list_day_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="8dp"
+        android:text="Segunda"
+        android:textAppearance="@style/HeadlineText"
+        app:layout_constraintBottom_toBottomOf="@+id/task_list_day"
+        app:layout_constraintLeft_toRightOf="@+id/task_list_day"
+        android:layout_marginLeft="8dp" />
+</android.support.constraint.ConstraintLayout>

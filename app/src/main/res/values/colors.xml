@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9575CD</color>
+    <color name="colorPrimaryDark">#7e57c2</color>
+    <color name="colorAccent">#1de9b6</color>
+    <color name="colorButtonPressed">#00BFA5</color>
+    <color name="confirmAccent">#00E676</color>
+    <color name="cancelAccent">#FF5252</color>
+</resources>

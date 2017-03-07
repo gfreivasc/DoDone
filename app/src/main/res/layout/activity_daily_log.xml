@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_daily_log"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gabrielfv.dodone.DailyLogActivity">
+
+    <include layout="@layout/day_picker" />
+
+    <ListView
+        android:id="@+id/lv_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        tools:listitem="@android:layout/simple_list_item_1"/>
+
+    <TextView
+        android:id="@+id/tv_tasks_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:textSize="20sp"
+        android:text="@string/no_task_message"
+        android:textColor="@android:color/darker_gray" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_new_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add_white_24dp"/>
+
+</FrameLayout>

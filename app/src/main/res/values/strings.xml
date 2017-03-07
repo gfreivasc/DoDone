@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DoDone</string>
+    <string name="daily_log_headline">Atividades para hoje</string>
+    <string name="new_task_headline">Nova Tarefa</string>
+    <string name="new_task_detail_hint">Tarefa</string>
+    <string name="new_task_date_hint">Dia</string>
+    <string name="new_task_confirm">CRIAR NOVA TAREFA</string>
+    <string name="new_task_detail_too_short">A tarefa deve ter pelo menos 10 caracteres</string>
+    <string name="new_task_create_error">Algo deu errado. Tente novamente depois.</string>
+    <string name="no_task_message">Sem tarefas? Que tal se atualizar naquela série?</string>
+</resources>
