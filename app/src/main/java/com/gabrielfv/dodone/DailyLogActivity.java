@@ -13,19 +13,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.gabrielfv.dodone.components.NewTaskDialogFragment;
-import com.gabrielfv.dodone.models.Task;
 import com.gabrielfv.dodone.utils.TaskController;
-import com.gabrielfv.dodone.utils.TaskListAdapter;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-import io.realm.Realm;
-import io.realm.RealmChangeListener;
-import io.realm.RealmResults;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class DailyLogActivity extends AppCompatActivity implements View.OnClickListener {
